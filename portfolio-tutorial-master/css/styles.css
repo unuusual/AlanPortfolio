@@ -232,6 +232,11 @@ h1 span:hover{
   text-decoration: none;
 }
 
+.card .project-details a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
 .proyect-details-content{
   display: flex;
   width: 100%;
@@ -528,19 +533,21 @@ ul.slider li:target {
 }
 
 
+
 footer #footer{
   display: flex;
   justify-content: space-around;
   background: #262626;
-  padding: 75px;
+  padding: 20px;
+  padding-bottom: 130px;
   color: #adb5bd;
-  border-top: 0.05em solid rgb(151, 151, 151);
 }
 
 
 #footer h2{
   color: white;
   text-align: center;
+  margin-top: -30px;
 }
 
 #footer div{
@@ -564,5 +571,21 @@ footer #footer{
   height: 45px;
 }
 
+.brandFooter{
+  display: flex;
+  justify-content: center;
+  background-color: #262626;
+  padding-top: 50px;
+}
+.brandFooter2{
+  display: flex;
+  justify-content: center;
+  background-color: #262626;
+  padding-bottom: 50px;
+}
+
+.brandFooter h2 span{
+  color: #04b98c;
+}
 
 
