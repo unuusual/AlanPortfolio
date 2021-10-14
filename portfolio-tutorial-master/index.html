@@ -79,7 +79,7 @@
           <div class="proyect-details-content">
             <button class="project-details boton">
               <a href="">
-                Project Details
+                Detalles
               </a>
             </button>
           </div>
@@ -106,7 +106,7 @@
           <div class="proyect-details-content">
             <button class="project-details boton">
               <a href="">
-                Project Details
+                Detalles
               </a>
             </button>
           </div>
@@ -133,7 +133,7 @@
           <div class="proyect-details-content">
             <button class="project-details boton">
               <a href="">
-                Project Details
+                Detalles
               </a>
             </button>
           </div>
@@ -145,62 +145,70 @@
   </div>
 
 
-  
-  <div class="containerCarrousel">
-    <div class="tecnologiasH2">
+  <div class="slide">
+    <div class="h2Tecnologias">
       <h2>Tecnologias que utilizo</h2>
     </div>
-      <ul class="slider">
-        <li id="slide1">
-          <img src="img/web1.jpg"/>
-        </li>
-        <li id="slide2">
-          <img src="img/web2.jpg"/>
-        </li>
-        <li id="slide3">
-          <img src="img/web3.jpg"/>
-        </li>
-      </ul>
-      
-      <ul class="menuCarrousel">
-        <li>
-          <a href="#slide1"></a>
-        </li>
-        <li>
-          <a href="#slide2"></a>
-        </li>
-        <li>
-          <a href="#slide3"></a>
-        </li>
-      </ul>
-    
-  </div>
-
-  <div class="wrapper">
-      <div class="contact-section">
-        <div class="contact-headings">
-          <h2>Estamos en contacto</h2>
-          <div class="divider"></div>
-        </div>
-
-        <div class="container-contact">   
-          <img src="img/img-opacity50.png" alt="alan opaco">
-          <div class="contact-form">
-            <h4>¡Mandame un mensaje!</h4>
-            <form class="form-control">
-              <input type="text" placeholder="Digite su Nombre">
-
-              <input type="email" placeholder="Digite su Email">
-
-              <textarea placeholder="Digite su mensaje"></textarea>
-
-              <button type="submit" class="btn-submit">Enviar</button>
-
-            </form>
-          </div>
-        </div>
+    <div class="flecha">
+      <img src="img/flecha.png" alt="">
+    </div>
+    <div class="slide-inner">
+      <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+      <div class="slide-item">
+        <img src="img/web1.jpg">
       </div>
+      <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+      <div class="slide-item">
+        <img src="img/web2.jpg">
+      </div>
+      <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+      <div class="slide-item">
+        <img src="img/web3.jpg">
+      </div>
+      <label for="slide-3" class="slide-control prev control-1">‹</label>
+      <label for="slide-2" class="slide-control next control-1">›</label>
+      <label for="slide-1" class="slide-control prev control-2">‹</label>
+      <label for="slide-3" class="slide-control next control-2">›</label>
+      <label for="slide-2" class="slide-control prev control-3">‹</label>
+      <label for="slide-1" class="slide-control next control-3">›</label>
+      <ol class="slide-indicador">
+        <li>
+          <label for="slide-1" class="slide-circulo">•</label>
+        </li>
+        <li>
+          <label for="slide-2" class="slide-circulo">•</label>
+        </li>
+        <li>
+          <label for="slide-3" class="slide-circulo">•</label>
+        </li>
+      </ol>
+    </div>
   </div>
+
+    <footer>
+      <section id="footer">
+          <article>
+              <h2>Contactame:</h2>
+              <div>
+                  <p>Email: arganarazalan603@gmail.com</p>
+                  <p>Numero de telefono: +54 9 11 20084655</p>
+              </div>
+
+          </article>
+          <article>
+            <div class="brand">
+              <h2>U<span>D</span></h2>
+              <p>UNUDESIGN</p>
+            </div>
+          </article>
+          <article id="redes-sociales">
+              <h2>Redes Sociales:</h2>
+              <a href="#"><img src="img/facebook.png" alt="faceboook"></a>                    
+              <a href="#"><img src="img/twitter.png" alt="instagram"></a>
+              <a href="#"><img src="img/instagram.png" alt="whatsapp"></a>
+          </article>
+      </section>
+  </footer>
   
   
 </body>
